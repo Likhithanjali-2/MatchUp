@@ -1,0 +1,60 @@
+*{
+    background: url(../images/background2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    color:rgb(233, 10, 95);
+    font-size: 2.2em;
+    margin-left: 45%;
+}
+/* img{
+    width: 100px;
+    height: 140px;
+} */
+
+.window{
+    display: flex;
+}
+
+#timer{
+    margin-left: 20%;
+    color: rgb(233, 10, 95);
+    margin-top: 8%;
+    font-size: 2em;
+}
+
+#time{
+    margin-top: 10%;
+    margin-left:0%;
+    font-size: 2.3em;
+    border:rgb(240, 63, 136) 2px dotted;
+    border-radius: 15px;
+}
+
+#gameBoard{
+    background: url(../images/background2.jpg) no-repeat center center fixed;;
+    border:rgb(233, 10, 95) 4px solid;
+    border-radius: 10px;
+    width: 380px;
+    height:460px;
+    padding: 0px;
+    margin-left: 20%;
+}
+
+#gameBoard > div{
+    background: url(../images/thinking-emoji.jpeg) no-repeat;
+    border:#000 1px solid;
+    border-radius: 5px;
+    width: 50px;
+    height: 70px;
+    float : left;
+    margin: 11px;
+    padding: 10px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+}
